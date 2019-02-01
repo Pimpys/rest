@@ -31,14 +31,13 @@ function getMeny(array $meny, $vertical = false)
          echo '<div class = "right__article__container">';
      }
      
-     else[
+     else
          echo '<nav class="grid">';
     
      foreach ($meny as $key => $value) {
         echo '<a href = '$key' class = 'item'>$value</a>';
     }
     echo '</nav>';
-     ]
 }
 
 
